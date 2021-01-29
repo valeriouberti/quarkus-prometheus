@@ -1,0 +1,16 @@
+version: "3"
+services:
+  monitoring:
+    image: "prom/prometheus"
+    container_name: "personStore-monitoring"
+    ports:
+      - 9090:9090
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+  db:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    container_name: "db"
+    volumes:
+      - ~/mydbs/mongo/data:/data/db

@@ -1,0 +1,18 @@
+[{
+  "id": "12345",
+  "fullName": "John Smith",
+  "birthDate": "1991-01-20",
+  "age": 30
+},
+{
+  "id": "12346",
+  "fullName": "John Snow",
+  "birthDate": "1990-06-20",
+  "age": 31
+},
+{
+  "id": "12345",
+  "fullName": "Isabel Brown",
+  "birthDate": "1992-07-14",
+  "age": 28
+}]
